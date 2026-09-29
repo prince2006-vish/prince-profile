@@ -18,11 +18,7 @@ import {
   ChevronDown,
 } from "lucide-react";
 
-import {
-  FaGithub,
-  FaInstagram,
-  FaLinkedin,
-} from "react-icons/fa6";
+import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa6";
 
 import "./App.css";
 
@@ -137,13 +133,7 @@ const PROJECTS = [
     category: "Full-Stack Website",
     description:
       "A professional political party website with membership system, admin panel, news, events, gallery, video gallery and donation management.",
-    technologies: [
-      "React",
-      "CSS",
-      "Node.js",
-      "MongoDB",
-      "Cloudinary",
-    ],
+    technologies: ["React", "CSS", "Node.js", "MongoDB", "Cloudinary"],
     image: "/projects/project1.png",
     live: "https://bhartiyalokvanipartya.vercel.app/",
     github: "https://github.com/",
@@ -155,13 +145,7 @@ const PROJECTS = [
     category: "Full-Stack Website",
     description:
       "A full-stack doctor appointment platform that allows patients to explore doctors, view available services and conveniently book appointments through an easy-to-use interface.",
-    technologies: [
-      "React",
-      "JavaScript",
-      "CSS",
-      "Node.js",
-      "MongoDB",
-    ],
+    technologies: ["React", "JavaScript", "CSS", "Node.js", "MongoDB"],
     image: "/projects/project2.png",
     live: "https://prince-care-hube.vercel.app/",
     github: "https://github.com/",
@@ -221,21 +205,19 @@ function App() {
 
   return (
     <div className="app">
-
       {/* =====================================================
           NAVBAR
       ===================================================== */}
 
       <header className="navbar">
         <div className="nav-inner">
-
           <button
             className="brand"
             onClick={() => go("home")}
             aria-label="websitewithprince home"
           >
             <img
-              src="/public/prince2.png"
+              src="/prince2.png"
               alt="websitewithprince"
               className="brand-logo"
             />
@@ -258,10 +240,7 @@ function App() {
               </button>
             ))}
 
-            <button
-              className="nav-contact-btn"
-              onClick={() => go("contact")}
-            >
+            <button className="nav-contact-btn" onClick={() => go("contact")}>
               Let's Talk
               <ArrowUpRight size={16} />
             </button>
@@ -272,42 +251,28 @@ function App() {
             onClick={() => setMenuOpen(!menuOpen)}
             aria-label="Toggle navigation"
           >
-            {menuOpen ? (
-              <X size={25} />
-            ) : (
-              <Menu size={25} />
-            )}
+            {menuOpen ? <X size={25} /> : <Menu size={25} />}
           </button>
-
         </div>
       </header>
 
       <main>
-
         {/* ===================================================
             HERO
         =================================================== */}
 
-        <section
-          id="home"
-          className="hero section"
-        >
+        <section id="home" className="hero section">
           <div className="hero-content">
-
             <div className="availability">
               <span className="availability-dot"></span>
               Available for freelance projects
             </div>
 
-            <p className="hero-brand">
-              websitewithprince
-            </p>
+            <p className="hero-brand">websitewithprince</p>
 
             <h1>
               Hi, I'm
-              <span className="gradient-text">
-                Prince Vishwakarma
-              </span>
+              <span className="gradient-text">Prince Vishwakarma</span>
             </h1>
 
             <h2>
@@ -316,17 +281,13 @@ function App() {
             </h2>
 
             <p className="hero-description">
-              I create modern, responsive and high-performance
-              websites with beautiful interfaces, powerful
-              backend systems and smooth user experiences.
+              I create modern, responsive and high-performance websites with
+              beautiful interfaces, powerful backend systems and smooth user
+              experiences.
             </p>
 
             <div className="hero-buttons">
-
-              <button
-                className="primary-button"
-                onClick={() => go("projects")}
-              >
+              <button className="primary-button" onClick={() => go("projects")}>
                 View My Work
                 <ArrowUpRight size={18} />
               </button>
@@ -337,7 +298,6 @@ function App() {
               >
                 Let's Connect
               </button>
-
             </div>
 
             <div className="hero-technologies">
@@ -347,27 +307,21 @@ function App() {
               <span>UI/UX</span>
             </div>
 
-            <button
-              className="scroll-down"
-              onClick={() => go("about")}
-            >
+            <button className="scroll-down" onClick={() => go("about")}>
               <span>Scroll to explore</span>
               <ArrowDown size={16} />
             </button>
-
           </div>
 
           {/* HERO IMAGE */}
 
           <div className="hero-visual">
-
             <div className="hero-glow"></div>
 
             <div className="hero-ring ring-one"></div>
             <div className="hero-ring ring-two"></div>
 
             <div className="profile-card">
-
               <div className="profile-top">
                 <span>DEVELOPER</span>
                 <span>01 / 06</span>
@@ -375,31 +329,24 @@ function App() {
 
               <div className="profile-image-box">
                 <img
-                  src="/public/projects/prince3.png"
+                  src="/projects/prince3.png"
                   alt="Prince Vishwakarma"
                   className="profile-image"
                 />
               </div>
 
               <div className="profile-bottom">
-
                 <div>
-                  <strong>
-                    Prince Vishwakarma
-                  </strong>
+                  <strong>Prince Vishwakarma</strong>
 
-                  <small>
-                    websitewithprince
-                  </small>
+                  <small>websitewithprince</small>
                 </div>
 
                 <div className="online-status">
                   <span></span>
                   Available
                 </div>
-
               </div>
-
             </div>
 
             <div className="floating-card floating-card-one">
@@ -417,7 +364,6 @@ function App() {
                 <small>Modern experience</small>
               </div>
             </div>
-
           </div>
         </section>
 
@@ -425,15 +371,9 @@ function App() {
             ABOUT
         =================================================== */}
 
-        <section
-          id="about"
-          className="section about-section"
-        >
-
+        <section id="about" className="section about-section">
           <div className="section-heading">
-            <span className="section-number">
-              01 / ABOUT
-            </span>
+            <span className="section-number">01 / ABOUT</span>
 
             <h2>
               Building digital experiences
@@ -442,63 +382,45 @@ function App() {
           </div>
 
           <div className="about-grid">
-
             <div className="about-intro">
-
               <div className="about-icon">
                 <UserRound size={25} />
               </div>
 
-              <h3>
-                Hello, I'm Prince.
-              </h3>
+              <h3>Hello, I'm Prince.</h3>
 
               <p>
-                I'm a Full Stack Developer and Web Designer
-                focused on creating modern websites and
-                web applications.
+                I'm a Full Stack Developer and Web Designer focused on creating
+                modern websites and web applications.
               </p>
 
               <p>
-                My approach combines clean design, responsive
-                layouts and reliable backend systems to create
-                practical digital products.
+                My approach combines clean design, responsive layouts and
+                reliable backend systems to create practical digital products.
               </p>
-
             </div>
 
             <div className="about-details">
-
               <div className="detail-box">
                 <span>Name</span>
-                <strong>
-                  Prince Vishwakarma
-                </strong>
+                <strong>Prince Vishwakarma</strong>
               </div>
 
               <div className="detail-box">
                 <span>Brand</span>
-                <strong>
-                  websitewithprince
-                </strong>
+                <strong>websitewithprince</strong>
               </div>
 
               <div className="detail-box">
                 <span>Role</span>
-                <strong>
-                  Full Stack Developer
-                </strong>
+                <strong>Full Stack Developer</strong>
               </div>
 
               <div className="detail-box">
                 <span>Location</span>
-                <strong>
-                  India
-                </strong>
+                <strong>India</strong>
               </div>
-
             </div>
-
           </div>
         </section>
 
@@ -506,15 +428,9 @@ function App() {
             EDUCATION
         =================================================== */}
 
-        <section
-          id="education"
-          className="section"
-        >
-
+        <section id="education" className="section">
           <div className="section-heading">
-            <span className="section-number">
-              02 / EDUCATION
-            </span>
+            <span className="section-number">02 / EDUCATION</span>
 
             <h2>
               My educational
@@ -523,66 +439,37 @@ function App() {
           </div>
 
           <div className="education-list">
-
             {EDUCATION.map((item, index) => (
-              <div
-                className="education-item"
-                key={item.title}
-              >
-
-                <div className="education-number">
-                  0{index + 1}
-                </div>
+              <div className="education-item" key={item.title}>
+                <div className="education-number">0{index + 1}</div>
 
                 <div className="education-icon">
                   <GraduationCap size={22} />
                 </div>
 
                 <div className="education-content">
+                  <span className="education-year">{item.year}</span>
 
-                  <span className="education-year">
-                    {item.year}
-                  </span>
+                  <h3>{item.title}</h3>
 
-                  <h3>
-                    {item.title}
-                  </h3>
+                  <h4>{item.school}</h4>
 
-                  <h4>
-                    {item.school}
-                  </h4>
-
-                  <p>
-                    {item.description}
-                  </p>
-
+                  <p>{item.description}</p>
                 </div>
 
-                <ChevronDown
-                  className="education-arrow"
-                  size={20}
-                />
-
+                <ChevronDown className="education-arrow" size={20} />
               </div>
             ))}
-
           </div>
-
         </section>
 
         {/* ===================================================
             SKILLS
         =================================================== */}
 
-        <section
-          id="skills"
-          className="section skills-section"
-        >
-
+        <section id="skills" className="section skills-section">
           <div className="section-heading">
-            <span className="section-number">
-              03 / SKILLS
-            </span>
+            <span className="section-number">03 / SKILLS</span>
 
             <h2>
               Tools I use to
@@ -591,56 +478,30 @@ function App() {
           </div>
 
           <div className="skills-grid">
-
             {SKILLS.map((skill) => (
-              <div
-                className="skill-card"
-                key={skill.name}
-              >
-
-                <div className="skill-icon">
-                  {skill.icon}
-                </div>
+              <div className="skill-card" key={skill.name}>
+                <div className="skill-icon">{skill.icon}</div>
 
                 <div className="skill-info">
+                  <h3>{skill.name}</h3>
 
-                  <h3>
-                    {skill.name}
-                  </h3>
-
-                  <span>
-                    {skill.level}
-                  </span>
-
+                  <span>{skill.level}</span>
                 </div>
 
-                <ArrowUpRight
-                  size={18}
-                  className="skill-arrow"
-                />
-
+                <ArrowUpRight size={18} className="skill-arrow" />
               </div>
             ))}
-
           </div>
-
         </section>
 
         {/* ===================================================
             PROJECTS
         =================================================== */}
 
-        <section
-          id="projects"
-          className="section projects-section"
-        >
-
+        <section id="projects" className="section projects-section">
           <div className="section-heading projects-heading">
-
             <div>
-              <span className="section-number">
-                04 / PROJECTS
-              </span>
+              <span className="section-number">04 / PROJECTS</span>
 
               <h2>
                 Selected
@@ -649,31 +510,22 @@ function App() {
             </div>
 
             <p>
-              A collection of websites and applications
-              built using modern technologies.
+              A collection of websites and applications built using modern
+              technologies.
             </p>
-
           </div>
 
           <div className="projects-grid">
-
             {PROJECTS.map((project) => (
-              <article
-                className="project-card"
-                key={project.title}
-              >
-
+              <article className="project-card" key={project.title}>
                 <div className="project-image-box">
-
                   <img
                     src={project.image}
                     alt={project.title}
                     className="project-image"
                   />
 
-                  <div className="project-number">
-                    {project.number}
-                  </div>
+                  <div className="project-number">{project.number}</div>
 
                   <a
                     href={project.live}
@@ -684,37 +536,22 @@ function App() {
                   >
                     <ExternalLink size={19} />
                   </a>
-
                 </div>
 
                 <div className="project-content">
+                  <span className="project-category">{project.category}</span>
 
-                  <span className="project-category">
-                    {project.category}
-                  </span>
+                  <h3>{project.title}</h3>
 
-                  <h3>
-                    {project.title}
-                  </h3>
-
-                  <p>
-                    {project.description}
-                  </p>
+                  <p>{project.description}</p>
 
                   <div className="project-tech">
-
-                    {project.technologies.map(
-                      (tech) => (
-                        <span key={tech}>
-                          {tech}
-                        </span>
-                      )
-                    )}
-
+                    {project.technologies.map((tech) => (
+                      <span key={tech}>{tech}</span>
+                    ))}
                   </div>
 
                   <div className="project-links">
-
                     <a
                       href={project.live}
                       target="_blank"
@@ -734,34 +571,21 @@ function App() {
                       <FaGithub size={17} />
                       GitHub
                     </a>
-
                   </div>
-
                 </div>
-
               </article>
             ))}
-
           </div>
-
         </section>
 
         {/* ===================================================
             CONTACT
         =================================================== */}
 
-        <section
-          id="contact"
-          className="section contact-section"
-        >
-
+        <section id="contact" className="section contact-section">
           <div className="contact-box">
-
             <div className="contact-content">
-
-              <span className="section-number">
-                05 / CONTACT
-              </span>
+              <span className="section-number">05 / CONTACT</span>
 
               <h2>
                 Let's build something
@@ -769,42 +593,30 @@ function App() {
               </h2>
 
               <p>
-                Have a project idea, website requirement
-                or collaboration opportunity? Feel free
-                to get in touch.
+                Have a project idea, website requirement or collaboration
+                opportunity? Feel free to get in touch.
               </p>
 
               <div className="contact-details">
-
-                <a
-                  href={`mailto:${PROFILE.email}`}
-                  className="contact-item"
-                >
+                <a href={`mailto:${PROFILE.email}`} className="contact-item">
                   <div className="contact-icon">
                     <Mail size={20} />
                   </div>
 
                   <div>
                     <small>Email</small>
-                    <strong>
-                      {PROFILE.email}
-                    </strong>
+                    <strong>{PROFILE.email}</strong>
                   </div>
                 </a>
 
-                <a
-                  href={`tel:${PROFILE.phone}`}
-                  className="contact-item"
-                >
+                <a href={`tel:${PROFILE.phone}`} className="contact-item">
                   <div className="contact-icon">
                     <Phone size={20} />
                   </div>
 
                   <div>
                     <small>Phone</small>
-                    <strong>
-                      {PROFILE.phone}
-                    </strong>
+                    <strong>{PROFILE.phone}</strong>
                   </div>
                 </a>
 
@@ -815,16 +627,12 @@ function App() {
 
                   <div>
                     <small>Location</small>
-                    <strong>
-                      {PROFILE.location}
-                    </strong>
+                    <strong>{PROFILE.location}</strong>
                   </div>
                 </div>
-
               </div>
 
               <div className="social-links">
-
                 <a
                   href={PROFILE.socials.github}
                   target="_blank"
@@ -851,24 +659,19 @@ function App() {
                 >
                   <FaInstagram />
                 </a>
-
               </div>
-
             </div>
 
             <div className="contact-side">
-
               <div className="contact-side-icon">
                 <Send size={30} />
               </div>
 
-              <h3>
-                Start a conversation
-              </h3>
+              <h3>Start a conversation</h3>
 
               <p>
-                Let's discuss your next website,
-                web application or digital idea.
+                Let's discuss your next website, web application or digital
+                idea.
               </p>
 
               <a
@@ -878,13 +681,9 @@ function App() {
                 Send Me an Email
                 <ArrowUpRight size={18} />
               </a>
-
             </div>
-
           </div>
-
         </section>
-
       </main>
 
       {/* =====================================================
@@ -892,41 +691,25 @@ function App() {
       ===================================================== */}
 
       <footer className="footer">
-
         <div className="footer-brand">
-
-          <img
-            src="/public/prince2.png"
-            alt="websitewithprince"
-          />
+          <img src="/prince2.png" alt="websitewithprince" />
 
           <div>
-            <strong>
-              websitewithprince
-            </strong>
+            <strong>websitewithprince</strong>
 
-            <span>
-              by Prince Vishwakarma
-            </span>
+            <span>by Prince Vishwakarma</span>
           </div>
-
         </div>
 
         <p>
-          © {new Date().getFullYear()} websitewithprince.
-          All rights reserved.
+          © {new Date().getFullYear()} websitewithprince. All rights reserved.
         </p>
 
-        <button
-          className="back-top"
-          onClick={() => go("home")}
-        >
+        <button className="back-top" onClick={() => go("home")}>
           Back to top
           <ArrowUpRight size={16} />
         </button>
-
       </footer>
-
     </div>
   );
 }
