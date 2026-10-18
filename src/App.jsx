@@ -41,7 +41,7 @@ const PROFILE = {
   location: "India",
 
   socials: {
-    github: "https://github.com/",
+    github: "https://github.com/prince2006-vish",
     linkedin: "https://www.linkedin.com/",
     instagram: "https://www.instagram.com/websitewithprince/",
   },
@@ -136,7 +136,7 @@ const PROJECTS = [
     technologies: ["React", "CSS", "Node.js", "MongoDB", "Cloudinary"],
     image: "/projects/project1.png",
     live: "https://bhartiyalokvanipartya.vercel.app/",
-    github: "https://github.com/",
+    github: "https://github.com/prince2006-vish",
   },
 
   {
@@ -148,7 +148,7 @@ const PROJECTS = [
     technologies: ["React", "JavaScript", "CSS", "Node.js", "MongoDB"],
     image: "/projects/project2.png",
     live: "https://prince-care-hube.vercel.app/",
-    github: "https://github.com/",
+    github: "https://github.com/prince2006-vish",
   },
   {
     number: "03",
@@ -159,7 +159,7 @@ const PROJECTS = [
     technologies: ["React", "JavaScript", "CSS", "Node.js", "MongoDB"],
     image: "/projects/project3.png",
     live: "https://restauranter-project.vercel.app/",
-    github: "https://github.com/",
+    github: "https://github.com/prince2006-vish",
   },
 ];
 
