@@ -164,7 +164,7 @@ const PROJECTS = [
   {
     number: "04",
     title: "Prince Furniture Shop",
-    category: "Full-Stack Website",
+    category: "Portfolio Website",
     description:
       "A modern e-commerce platform for Prince Furniture Shop, Saidpur. Customers can browse furniture collections, view product details with images, add to cart, and place orders online. Features include category filtering, admin panel to manage products, orders, and inventory with real-time order tracking.",
     technologies: ["React", "JavaScript", "CSS", "Node.js", "MongoDB"],
@@ -172,6 +172,16 @@ const PROJECTS = [
     live: "https://princefurniture-saidpur.vercel.app/",
     github: "https://github.com/prince2006-vish",
   },
+   {
+    number: "05",
+    title: "Sycoriyan Demo Website",
+    category: "Frontend Website Design",
+    description: "A sleek, modern demo website designed for Sycoriyan - showcasing its brand, services, and digital solutions with a clean UI, smooth animations, and fully responsive layout. Built to demonstrate creative frontend design and brand presentation.",
+    technologies: ["React", "JavaScript", "Tailwind CSS", "Framer Motion"],
+    image: "/projects/project5.png",
+    live: "https://sycoriyan-profile.vercel.app/",
+    github: "https://github.com/prince2006-vish",
+}
 ];
 
 /* =========================================================
