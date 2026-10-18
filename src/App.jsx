@@ -150,7 +150,7 @@ const PROJECTS = [
     live: "https://prince-care-hube.vercel.app/",
     github: "https://github.com/",
   },
-    {
+  {
     number: "03",
     title: "Restaurant Management System",
     category: "Full-Stack Website",
@@ -586,6 +586,41 @@ function App() {
                 </div>
               </article>
             ))}
+          </div>
+        </section>
+
+        {/* SEO Scripts */}
+        <section id="web-development" className="section">
+          <div className="section-heading">
+            <span className="section-number">WEB DEVELOPMENT</span>
+
+            <h2>Web Developer & MERN Stack Developer</h2>
+          </div>
+
+          <div className="about-intro">
+            <p>
+              I'm Prince Vishwakarma, a web developer building responsive
+              websites and web applications using React.js, JavaScript, Node.js
+              and MongoDB.
+            </p>
+
+            <h3>React.js Development</h3>
+            <p>
+              Explore my React.js projects, responsive interfaces and
+              interactive web applications.
+            </p>
+
+            <h3>MERN Stack Projects</h3>
+            <p>
+              Explore my full-stack projects and learn about the technologies
+              and features used in each application.
+            </p>
+
+            <h3>Website Development</h3>
+            <p>
+              View my portfolio and contact me to discuss website design and
+              development projects.
+            </p>
           </div>
         </section>
 
