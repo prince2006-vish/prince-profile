@@ -150,6 +150,17 @@ const PROJECTS = [
     live: "https://prince-care-hube.vercel.app/",
     github: "https://github.com/",
   },
+    {
+    number: "02",
+    title: "Restaurant Management System",
+    category: "Full-Stack Website",
+    description:
+      "An all-in-one platform for restaurants to manage online orders, table bookings, menu updates and sales reports.",
+    technologies: ["React", "JavaScript", "CSS", "Node.js", "MongoDB"],
+    image: "/projects/project3.png",
+    live: "https://restauranter-project.vercel.app/",
+    github: "https://github.com/",
+  },
 ];
 
 /* =========================================================
