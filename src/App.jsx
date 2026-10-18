@@ -151,7 +151,7 @@ const PROJECTS = [
     github: "https://github.com/",
   },
     {
-    number: "02",
+    number: "03",
     title: "Restaurant Management System",
     category: "Full-Stack Website",
     description:
