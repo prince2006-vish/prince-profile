@@ -161,7 +161,7 @@ const PROJECTS = [
     live: "https://restauranter-project.vercel.app/",
     github: "https://github.com/prince2006-vish",
   },
-    {
+  {
     number: "04",
     title: "Prince Furniture Shop",
     category: "Full-Stack Website",
