@@ -166,7 +166,8 @@ const PROJECTS = [
     title: "Prince Furniture Shop",
     category: "Full-Stack Website",
     description:
-      "A modern e-commerce platform for Prince Furniture Shop, Saidpur. Customers can browse furniture collections, view product details with images, add to cart, and place orders online. Features include category filtering, admin panel to manage products, orders, and inventory with real-time order tracking."    technologies: ["React", "JavaScript", "CSS", "Node.js", "MongoDB"],
+      "A modern e-commerce platform for Prince Furniture Shop, Saidpur. Customers can browse furniture collections, view product details with images, add to cart, and place orders online. Features include category filtering, admin panel to manage products, orders, and inventory with real-time order tracking.",
+    technologies: ["React", "JavaScript", "CSS", "Node.js", "MongoDB"],
     image: "/projects/project4.png",
     live: "https://princefurniture-saidpur.vercel.app/",
     github: "https://github.com/prince2006-vish",
